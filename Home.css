@@ -1,0 +1,279 @@
+/*universal css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial,sans-serif;
+}
+/*placeholder css*/
+.search-box::placeholder{
+   font-size: 13px;
+}
+/*navbar css*/
+.header_container{
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    padding: 0px 64px;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+}
+/*flipkart logo css*/
+.flipkart_logo{
+    margin-left: 136px;
+    width: fit-content;
+}
+.flipkart_logo > img{
+    width: 75px;
+    height: 20px;
+    margin-bottom: 2px;
+}
+.flipkart_logo > a{
+    text-decoration: none;
+    font-size: 11px;
+    cursor: pointer;
+    color: #f0f0f0;
+    margin-top: -5px;
+    font-style: italic;
+}
+.plus{
+    color: #FFE500;
+    font-weight: bold;
+}
+.plus img{
+    width: 10px;
+    height: 10px;
+}
+.flipkart_logo > a:hover{
+    text-decoration: underline;
+}
+/*search container*/
+.search-container{
+  max-width: 500px;
+  width: 488px;
+  margin-right: 18px;
+}
+.search-bar{
+    width: 100%;
+}
+.search-box{
+    padding: 0px 16px;
+    outline: none;
+    border-radius: 1px;
+    border: 0px;
+    width: 100%;
+    height: 36px;
+    font-style: 14px;
+}
+.search-icon{
+    background-color: white;
+    padding: 4px 8px 4px 8px;
+    color: #2874f0;
+    border-color: white;
+    border: 0px;
+}
+/*login btn css*/
+.login{
+    width: 121px;
+}
+.button-login{
+    color: #2874f0;
+    font-size: 17px;
+    border: 0;
+    height:32px;
+    font-weight:bolder;
+    padding: 4px 40px;
+    border-radius: 0px;
+    margin-left: 4px;
+}
+.button-login:hover{
+    color: #2874f0; ;
+}
+/*more btn css*/
+.more a{
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #2874f0;
+    color: white;
+    align-items: center;
+    border: 0;
+    margin-left: 18px;
+    text-decoration: none;
+}
+.arrow{
+    width: 2px;
+    padding: 4px;
+}/*cart btn css*/
+.cart-container{
+    width: 150px;
+    margin-left: 10px;
+}
+.cart{
+    width: 100%;
+    display: flex;
+}
+.cart-img{
+    margin-right: 6px;
+}
+.cart-text{
+    color: white;
+    font-size: 17px;
+    margin-left: 8px;
+    font-weight: 700;
+}
+.cart-container:hover{
+    cursor: pointer;
+}
+/*product category container css*/
+.top-two-div{
+    width: 100%;
+    left: 0px;
+    align-items: center;
+    justify-content: center;    
+}
+/*product category header css*/
+.head_container{
+    height:112px;
+    background-color: white;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.head_container img{
+    width: 64px;
+    height: 64px;
+}
+.head_container span{
+    font-size: 14px;
+    font-weight: bold;    
+}
+
+.category:hover{
+    cursor: pointer;
+    color:#2874f0;
+}
+/*middle container css */
+.main-container{
+    background-color: white;
+    margin:5px;
+    padding:0px 0px 10px;
+    height: 372px;
+    border: 0;
+    border:0.3px solid rgb(241, 229, 229);
+}
+
+.main-header{
+    height: 63px;
+    padding: 15px 20px;
+    display: flex;
+}
+.main-header button{
+    width: 95px;
+    height: 38px;
+    margin-left: 670px;
+    font-size: 12px;
+    background-color:#2874f0;
+    color:white;
+    font-weight: bold;
+    border: 0;
+}
+.main-header img{
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.main-header small{
+    color: grey;
+    margin-left:8px;
+    margin-top: 2px;
+}
+/*middle products body css */
+.main-body{
+    width: 100%;
+    height: 288px;
+    padding: 25px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+/*main category css */
+.main-category{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+.main-category img{
+    width: 150px;
+    height: 150px;
+}
+/*img hover css */
+.main-category img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+.main-category span{
+    cursor: pointer;
+    font-size: 14px;
+}
+.main-header .view-all{
+    position: absolute;
+    width: 95px;
+    height: 38px;
+    right: 19px;
+    font-size: 12px;
+    background-color:#2874f0;
+    color:white;
+    font-weight: bold;
+    border: 0;
+}
+/* side ad bar css */
+.main-ad-div{
+    display: block;
+    width: 16.66%;
+   }
+   .ad-div{
+    padding: 4px;
+   }
+   .ad-div a{
+    display: block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+   }
+   .ad{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 374px;
+   }
+   .ad-img{
+     max-width: 100%;
+     max-height: 100%;
+     text-decoration: none;
+    border: none;
+    outline: none;
+   }
+/*img title css */
+.title{
+    margin-top: 15px;
+    font-weight: bold;
+}
+/*img offer css */
+.offer{
+    padding:8px;
+    color: #388E3C;
+}
+/*img description css */
+.desc{
+    padding: 3px;
+    color: grey;
+}
